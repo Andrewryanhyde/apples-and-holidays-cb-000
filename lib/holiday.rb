@@ -32,7 +32,11 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     if season = :winter
       hash.each do |key, value|
         value << supply
-      
+      end
+    end
+  end
+end
+
 
 end
 
